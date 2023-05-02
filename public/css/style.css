@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(189, 121, 38);
+    height: 100%;
+}
+
+img{
+    width: 8%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20%;
+    border-bottom: 1px solid;
+}
+
+footer{
+    border-top: 1px solid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer i{
+    text-align: center;
+    /* font-size: 300px; */
+}
